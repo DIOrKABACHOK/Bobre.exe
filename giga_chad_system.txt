@@ -1,0 +1,66 @@
+# Звезда 1
+Star 5 red 1.98892E30 -50E9 -70E9 0 0 1
+
+# Планеты Звезды 1
+Planet 3 blue 5.9726E24 -30E9 -70E9 0 -67.87E3 1
+Planet 3 blue 5.9726E24 -10E9 -70E9 0 57.87E3 1
+Planet 3 blue 5.9726E24 10E9 -70E9 0 -47.87E3 1
+Planet 3 blue 5.9726E24 30E9 -70E9 0 37.87E3 1
+Planet 3 blue 40.9726E24 50E9 -70E9 0 -37.87E3 1
+Planet 3 blue 60.9726E24 70E9 -70E9 0 27.87E3 1
+Planet 3 blue 5.9726E24 90E9 -70E9 0 -27.87E3 1
+Planet 3 blue 5.9726E24 110E9 -70E9 0 27.19E3 1
+Planet 3 blue 40.9726E24 130E9 -70E9 0 -27.19E3 1
+Planet 3 blue 60.9726E24 150E9 -70E9 0 23.19E3 1
+
+
+# Звезда 2
+Star 5 red 1.98892E30 70E9 140E9 0 0 2
+
+# Планеты и Спутники Звезды 2
+Planet 3 green 5.974E24 80E9 140E9 0 -107.87E3 2 pr1
+Satellite 1 yellow 7.342e22 75E9 135E9 -107.87E3 -107E3 2 pr1
+Planet 3 green 5.974E24 90E9 140E9 0 67.87E3 2
+Planet 3 green 5.974E24 100E9 140E9 0 -63.87E3 2 pr2
+Satellite 1 yellow 7.342e22 95E9 140E9 0 0 2 pr2
+Planet 3 green 5.974E24 110E9 140E9 0 57.87E3 2
+Planet 3 green 5.974E24 120E9 140E9 0 -53.87E3 2 pr3
+Satellite 1 yellow 7.342e22 125E9 140E9 0 0 2 pr3
+Planet 3 green 5.974E24 130E9 140E9 0 47.87E3 2
+Planet 3 green 5.974E24 140E9 140E9 0 -53.87E3 2 pr4
+Satellite 1 yellow 7.342e22 145E9 140E9 0 0 2 pr4
+Planet 3 green 5.974E24 150E9 140E9 0 37.87E3 2
+Planet 3 green 40.974E24 160E9 140E9 0 -43.87E3 2 pr5
+Satellite 1 yellow 7.342e22 165E9 140E9 0 0 2 pr5
+Planet 3 green 40.974E24 170E9 140E9 0 37.87E3 2
+Planet 3 green 60.974E24 180E9 140E9 0 -33.87E3 2 pr6
+Satellite 1 yellow 7.342e22 185E9 140E9 0 0 2 pr6
+Planet 3 green 60.974E24 190E9 140E9 0 27.87E3 2
+Planet 3 green 5.974E24 200E9 140E9 0 -33.87E3 2 pr7
+Satellite 1 yellow 7.342e22 205E9 140E9 0 0 2 pr7
+Planet 3 green 5.974E24 210E9 140E9 0 27.87E3 2
+Planet 3 green 5.974E24 220E9 140E9 0 -33.87E3 2 pr8
+Satellite 1 yellow 7.342e22 225E9 140E9 0 0 2 pr8
+Planet 3 green 5.974E24 230E9 140E9 0 27.87E3 2
+Planet 3 green 40.974E24 240E9 140E9 0 -33.87E3 2 pr9
+Satellite 1 yellow 7.342e22 245E9 140E9 0 0 2 pr9
+Planet 3 green 40.974E24 250E9 140E9 0 27.87E3 2
+Planet 3 green 60.974E24 260E9 140E9 0 -26.87E3 2 pr10
+Satellite 1 yellow 7.342e22 265E9 140E9 0 0 2 pr10
+Planet 3 green 60.974E24 270E9 140E9 0 23.87E3 2
+
+
+# Звезда 3
+Star 5 red 1.98892E30 170E9 -70E9 0 0 3
+
+# Планеты Звезды 3
+Planet 3 purple 5.974E24 190E9 -70E9 0 -67.87E3 3
+Planet 3 purple 5.974E24 210E9 -70E9 0 57.87E3 3
+Planet 3 purple 5.974E24 230E9 -70E9 0 -47.87E3 3
+Planet 3 purple 5.974E24 250E9 -70E9 0 37.87E3 3
+Planet 3 purple 40.9726E24 270E9 -70E9 0 -37.87E3 3
+Planet 3 purple 60.9726E24 290E9 -70E9 0 27.87E3 3
+Planet 3 purple 5.974E24 310E9 -70E9 0 -27.87E3 3
+Planet 3 purple 5.974E24 330E9 -70E9 0 27.87E3 3
+Planet 3 purple 40.9726E24 350E9 -70E9 0 -27.87E3 3
+Planet 3 purple 60.9726E24 370E9 -70E9 0 23.87E3 3

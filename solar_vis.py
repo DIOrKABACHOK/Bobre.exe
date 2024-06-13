@@ -9,7 +9,7 @@
 header_font = "Arial-16"
 """Шрифт в заголовке"""
 
-window_width = 800
+window_width = 1200
 """Ширина окна"""
 
 window_height = 800
@@ -19,6 +19,8 @@ scale_factor = None
 """Масштабирование экранных координат по отношению к физическим.
 Тип: float
 Мера: количество пикселей на один метр."""
+
+show_trails = True
 
 
 def calculate_scale_factor(max_distance):
@@ -84,6 +86,49 @@ def create_planet_image(space, planet):
     y = scale_y(planet.y)
     r = planet.R
     planet.image = space.create_oval([x - r, y - r], [x + r, y + r], fill=planet.color)
+
+
+def create_satellite_image(space, satellite):
+    """Создаёт отображаемый объект спутника.
+
+    Параметры:
+
+    **space** — холст для рисования.
+    **planet** — объект спутника.
+    """
+    x = scale_x(satellite.x)
+    y = scale_y(satellite.y)
+    r = satellite.R
+    satellite.image = space.create_oval([x - r, y - r], [x + r, y + r], fill=satellite.color)
+
+
+def create_trail(space, body):
+    """Создаёт след за объектом.
+
+    Параметры:
+
+    **space** — холст для рисования.
+    **body** — объект, за которым нужно оставить след.
+    """
+    if show_trails:
+        x = scale_x(body.x)
+        y = scale_y(body.y)
+        r = 2
+        body.trail.append(space.create_oval([x - r, y - r], [x + r, y + r], fill=body.color))
+
+
+def clear_trails(space, space_objects):
+    """Очищает следы за всеми объектами.
+
+    Параметры:
+
+    **space** — холст для рисования.
+    **bodies** — список объектов, для которых нужно очистить следы.
+    """
+    for body in space_objects:
+        for trail_part in body.trail:
+            space.delete(trail_part)
+        body.trail.clear()
 
 
 def update_system_name(space, system_name):
